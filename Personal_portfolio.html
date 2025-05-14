@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      line-height: 1.6;
+    }
+    header, nav, main, section, article, footer {
+      padding: 20px;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+    }
+    nav {
+      background: #444;
+      color: white;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+    }
+    nav a:hover {
+      background: #666;
+    }
+    section {
+      margin: 20px;
+    }
+    video, audio {
+      width: 100%;
+      max-width: 600px;
+      display: block;
+      margin: 0 auto;
+    }
+    footer {
+      background-color: #f4f4f4;
+      text-align: center;
+    }
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Pavithra J Portfolio</h1>
+    <p>Web Developer | Designer | Creative Thinker</p>
+  </header>
+
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <article>
+        <h2>About Me</h2>
+        <p>Hello! I'm Pavithra J, a passionate web developer who loves creating beautiful and responsive websites. I'm skilled in HTML5, CSS3, and JavaScript.</p>
+        <ul>
+          <li>Location: Bangalore, India</li>
+          <li>Experience: 2+ years</li>
+          <li>Hobbies: Coding, Music, Dancing</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="projects">
+      <article>
+        <h2>Projects</h2>
+        <p>Here are a few of my favorite projects:</p>
+        <ul>
+          <li><a href="#">Responsive Portfolio Website</a></li>
+          <li><a href="#">JavaScript Game App</a></li>
+          <li><a href="#">E-commerce Frontend</a></li>
+        </ul>
+      </article>
+    </section>
+
+    <section>
+      <h2>Introduction Video</h2>
+      <video controls>
+        <source src="my-intro.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <section>
+      <h2>Background Music</h2>
+      <audio controls autoplay loop>
+        <source src="background-music.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+      </audio>
+    </section>
+
+    <section id="contact">
+      <article>
+        <h2>Contact</h2>
+        <p>You can reach me via:</p>
+        <ul>
+          <li>Email: jpavithra0416@gmail.com</li>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/pavithra-j-44146421a/" target="_blank">linkedin.com/in/pavithra-j-44146421a</a></li>
+        </ul>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Pavithra J. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>We Value Your Feedback!</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f7f8;
+      margin: 0;
+      padding: 30px;
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    article, aside {
+      background-color: #ffffff;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+      margin-bottom: 30px;
+    }
+
+    label {
+      font-weight: bold;
+      margin-top: 15px;
+      display: block;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 8px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    button {
+      background-color: #007BFF;
+      color: white;
+      padding: 10px 18px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    aside h2 {
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>We'd Love to Hear From You!</h1>
+    <p>Share your thoughts with us using the form below.</p>
+  </header>
+
+  <article>
+    <form>
+      <label for="name">What's your name?</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name here" required>
+
+      <label for="feedback">Your feedback</label>
+      <textarea id="feedback" name="feedback" placeholder="Tell us what you think..." required></textarea>
+
+      <button type="submit">Send Feedback</button>
+    </form>
+  </article>
+
+  <aside>
+    <h2>What is Web Storage?</h2>
+    <p>
+      Modern web browsers let websites remember things — thanks to something called <strong>Web Storage</strong>.
+    </p>
+    <p>
+      There are two types:
+      <ul>
+        <li><strong>localStorage</strong>: Stores data that stays even after you close the browser. Great for saving settings or preferences.</li>
+        <li><strong>sessionStorage</strong>: Keeps data only while the page is open. Once you close the tab, it’s gone. Perfect for temporary info.</li>
+      </ul>
+    </p>
+    <p>
+      These tools help websites create smoother and more personalized experiences — without needing to store everything on a server.
+    </p>
+  </aside>
+
+</body>
+</html>
